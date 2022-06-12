@@ -1,0 +1,7 @@
+.cardBoxImage{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  transition: 0.4s ease-out;
+}

@@ -1,0 +1,67 @@
+/* Import */
+@import "./componentStyles/areaChart.css";
+@import "./componentStyles/navBar.css";
+@import "./componentStyles/createBet.css";
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', 'Russo One', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 10px;
+  background-color: #222434;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Scrollbar Style */
+* ::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+* ::-webkit-scrollbar
+{
+  width: 0.8rem;
+  background-color: transparent;
+}
+
+* ::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+input, textarea {
+  font-family: "Poppins";
+  outline: none;
+}
+
+.Toastify {
+  position: absolute;
+  z-index: 999999;
+}
+
+.Toastify__toast-body > div:last-child {
+  font-size: 1.3rem;
+}

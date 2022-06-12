@@ -1,0 +1,153 @@
+{
+  "data": {
+    "virtualFloors": [
+      {
+        "betaOpen": "10",
+        "creationFeeRate": "0.025",
+        "description": "Match on Thu Feb 10 2022 between Team A & Team B & Team C",
+        "id": "0xfb6441230d9b0f00",
+        "isListed": true,
+        "opponents": [
+          {
+            "id": "0xfb6441230d9b0f00-0",
+            "image": "https://via.placeholder.com/256/35B760/FFFFFF.png?text=A",
+            "title": "Team A"
+          },
+          {
+            "id": "0xfb6441230d9b0f00-1",
+            "image": "https://via.placeholder.com/256/A69111/000000.png?text=B",
+            "title": "Team B"
+          },
+          {
+            "id": "0xfb6441230d9b0f00-2",
+            "image": "https://via.placeholder.com/256/B18F72/000000.png?text=C",
+            "title": "Team C"
+          }
+        ],
+        "outcomes": [
+          {
+            "index": 0,
+            "outcomeTimeslots": [
+              {
+                "timeslot": "1643271960",
+                "totalSupply": "2",
+                "userOutcomeTimeslots": []
+              }
+            ],
+            "title": "Team A win",
+            "totalSupply": "2",
+            "totalWeightedSupply": "19.82857142857142857",
+            "userOutcomes": [
+              {
+                "totalBalance": "2",
+                "totalWeightedBalance": "19.82857142857142857"
+              }
+            ],
+            "virtualFloor": {
+              "betaOpen": "10",
+              "id": "0xfb6441230d9b0f00",
+              "paymentToken": {
+                "decimals": 6,
+                "symbol": "USDC"
+              },
+              "state": "RUNNING_OR_CLOSED",
+              "tClose": "1643871000",
+              "tOpen": "1643266200"
+            }
+          },
+          {
+            "index": 1,
+            "outcomeTimeslots": [
+              {
+                "timeslot": "1643272320",
+                "totalSupply": "1",
+                "userOutcomeTimeslots": []
+              }
+            ],
+            "title": "Team B win",
+            "totalSupply": "1",
+            "totalWeightedSupply": "9.908928571428571428",
+            "userOutcomes": [
+              {
+                "totalBalance": "1",
+                "totalWeightedBalance": "9.908928571428571428"
+              }
+            ],
+            "virtualFloor": {
+              "betaOpen": "10",
+              "id": "0xfb6441230d9b0f00",
+              "paymentToken": {
+                "decimals": 6,
+                "symbol": "USDC"
+              },
+              "state": "RUNNING_OR_CLOSED",
+              "tClose": "1643871000",
+              "tOpen": "1643266200"
+            }
+          },
+          {
+            "index": 2,
+            "outcomeTimeslots": [
+              {
+                "timeslot": "1643272440",
+                "totalSupply": "3",
+                "userOutcomeTimeslots": []
+              }
+            ],
+            "title": "Team C win",
+            "totalSupply": "3",
+            "totalWeightedSupply": "29.721428571428571426",
+            "userOutcomes": [
+              {
+                "totalBalance": "3",
+                "totalWeightedBalance": "29.721428571428571426"
+              }
+            ],
+            "virtualFloor": {
+              "betaOpen": "10",
+              "id": "0xfb6441230d9b0f00",
+              "paymentToken": {
+                "decimals": 6,
+                "symbol": "USDC"
+              },
+              "state": "RUNNING_OR_CLOSED",
+              "tClose": "1643871000",
+              "tOpen": "1643266200"
+            }
+          }
+        ],
+        "owner": {
+          "id": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+        },
+        "paymentToken": {
+          "decimals": 6,
+          "symbol": "USDC"
+        },
+        "platformFeeRate": "0.25",
+        "resultSources": [
+          {
+            "id": "0xfb6441230d9b0f00-0",
+            "title": "Live stream #1",
+            "url": "https://www.youtube.com/watch?v=GrsEAvRerTg&z=1"
+          }
+        ],
+        "state": "RUNNING_OR_CLOSED",
+        "subcategory": {
+          "category": {
+            "slug": "sports"
+          },
+          "slug": "football"
+        },
+        "tClose": "1643363061",
+        "tCreated": "1643269909",
+        "tOpen": "1643266200",
+        "tResultSetMin": "1643399061",
+        "title": "Team A vs Team B vs Team C",
+        "totalSupply": "6",
+        "winningOutcome": {
+          "index": 1
+        }
+      }
+    ]
+  }
+}
